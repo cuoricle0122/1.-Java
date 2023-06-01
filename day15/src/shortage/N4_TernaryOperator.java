@@ -16,6 +16,5 @@ public class N4_TernaryOperator {
         String grade = (score >= 90) ? "A" : (score >= 80) ? "B" : (score >= 70) ? "C" : "D";
         System.out.println("성적: " + grade);
 
-        //
     }
 }

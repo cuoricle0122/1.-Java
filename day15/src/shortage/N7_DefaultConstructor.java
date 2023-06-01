@@ -1,7 +1,7 @@
 package shortage;
 
-public class N6_DefaultConstructor{
-    public N6_DefaultConstructor(){ // 기본생성자
+public class N7_DefaultConstructor {
+    public N7_DefaultConstructor(){ // 기본생성자
         // 특징 1. 메서드 이름은 클래스의 이름과 동일해야 합니다.
         // 특징 2. 매개변수를 가지지 않습니다.
         // 특징 3. 몸체(블록)는 비어있거나, 필요한 경우 초기화 코드 등을 포함할 수 있습니다.

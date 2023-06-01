@@ -3,7 +3,7 @@ package shortage;
 import java.util.ArrayList;
 import java.util.List;
 
-public class N5_EnhancedForLoop {
+public class N6_EnhancedForLoop {
     public static void main(String[] args) {
         // 향상된 for문
         // for (변수타입 변수명 : 배열 또는 컬렉션) {
