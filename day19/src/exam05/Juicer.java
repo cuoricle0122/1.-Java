@@ -11,7 +11,7 @@ public class Juicer<T> {
         System.out.println(items);
     }
 
-    public static <T extends Fruit> void make(T fruitBox){
+    public static <T extends Fruit> void make2(FruitBox<T> fruitBox){
         ArrayList<T> items = fruitBox.get();
         System.out.println(items);
     }
