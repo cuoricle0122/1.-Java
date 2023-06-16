@@ -1,0 +1,12 @@
+package exam01;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Ex03 {
+    public static void main(String[] args) {
+        List<String> names = Arrays.asList("이름1", "이름2", "이름3");
+        String[] names2 = names.stream().toArray(x -> new String[x]);
+        System.out.println(Arrays.toString(names2)); // [이름1, 이름2, 이름3]
+    }
+}
